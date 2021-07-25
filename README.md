@@ -30,6 +30,7 @@ spin(int *myvarref, &sl){
 	*myvarref *= 2;
 }
 ```
+**note**: It is incorrect to `return` in a `spin` scope. To exit safely from a `spin` scope, use `continue`. 
 
 ## safety considerations
 
